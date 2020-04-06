@@ -139,6 +139,7 @@
     </Compile>
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\ClientesController.cs" />
+    <Compile Include="Controllers\EntradasController.cs" />
     <Compile Include="Controllers\ProductoesController.cs" />
     <Compile Include="Controllers\ProveedorsController.cs" />
     <Compile Include="Entradas.cs">
@@ -215,6 +216,11 @@
     <Content Include="Views\Proveedors\Details.cshtml" />
     <Content Include="Views\Proveedors\Edit.cshtml" />
     <Content Include="Views\Proveedors\Index.cshtml" />
+    <Content Include="Views\Entradas\Create.cshtml" />
+    <Content Include="Views\Entradas\Delete.cshtml" />
+    <Content Include="Views\Entradas\Details.cshtml" />
+    <Content Include="Views\Entradas\Edit.cshtml" />
+    <Content Include="Views\Entradas\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
