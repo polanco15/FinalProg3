@@ -143,6 +143,7 @@
     <Compile Include="Controllers\FacturasController.cs" />
     <Compile Include="Controllers\ProductoesController.cs" />
     <Compile Include="Controllers\ProveedorsController.cs" />
+    <Compile Include="Controllers\SalidasController.cs" />
     <Compile Include="Entradas.cs">
       <DependentUpon>Final.tt</DependentUpon>
     </Compile>
@@ -227,6 +228,11 @@
     <Content Include="Views\Facturas\Details.cshtml" />
     <Content Include="Views\Facturas\Edit.cshtml" />
     <Content Include="Views\Facturas\Index.cshtml" />
+    <Content Include="Views\Salidas\Create.cshtml" />
+    <Content Include="Views\Salidas\Delete.cshtml" />
+    <Content Include="Views\Salidas\Details.cshtml" />
+    <Content Include="Views\Salidas\Edit.cshtml" />
+    <Content Include="Views\Salidas\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
