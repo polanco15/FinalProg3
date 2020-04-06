@@ -72,7 +72,6 @@ C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\bin\es\System.Web.Webpage
 C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\bin\es\System.Web.Webpages.Razor.resources.dll
 C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\bin\es\System.Web.Helpers.resources.dll
 C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\bin\es\System.Web.Mvc.resources.dll
-C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\obj\Debug\Prog3.csprojAssemblyReference.cache
 C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\obj\Debug\Prog3.csproj.CoreCompileInputs.cache
 C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\obj\Debug\Prog3.csproj.CopyComplete
 C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\obj\Debug\Prog3.dll
