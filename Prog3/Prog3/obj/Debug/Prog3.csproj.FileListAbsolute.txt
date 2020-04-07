@@ -76,3 +76,4 @@ C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\obj\Debug\Prog3.csproj.Co
 C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\obj\Debug\Prog3.csproj.CopyComplete
 C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\obj\Debug\Prog3.dll
 C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\obj\Debug\Prog3.pdb
+C:\Users\araid\Documents\GitHub\FinalProg3\Prog3\Prog3\obj\Debug\Prog3.csprojAssemblyReference.cache

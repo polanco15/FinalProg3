@@ -19,6 +19,20 @@ namespace Prog3.Controllers
         {
             return View(db.Producto.ToList());
         }
+        [HttpPost]
+        public ActionResult Index(FormCollection formCollection)
+        {
+            string name = formCollection["Nombre"];
+            
+            if(name != "")
+            {
+               var producto = (from p in db.Producto where p.Nombre == name select p);
+            }
+
+
+            return View(db.Producto.ToList());
+        }
+
 
         // GET: Productoes/Details/5
         public ActionResult Details(int? id)
