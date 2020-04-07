@@ -5,9 +5,12 @@
 }
 
 <h2>Index</h2>
-
+<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
 <p>
     @Html.ActionLink("Create New", "Create")
+
+    @Html.ActionLink("Print", "Imprimir")
+
 </p>
 
 @using (Html.BeginForm("Index", "Productoes", FormMethod.Post))
@@ -16,6 +19,8 @@
     <input placeholder="Producto a buscar" name="Nombre" type="text" class="validate">
     <input type="submit" name="form" value="Filtrar" class="btn-group" />
 }
+<br />
+
 <table class="table">
     <tr>
         <th>
@@ -27,20 +32,21 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nombre)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Precio)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.IdProducto }) |
-            @Html.ActionLink("Details", "Details", new { id=item.IdProducto }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.IdProducto })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.IdProducto }) |
+                @Html.ActionLink("Details", "Details", new { id = item.IdProducto }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.IdProducto })
+            </td>
+        </tr>
+    }
 
 </table>

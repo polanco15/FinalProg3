@@ -16,3 +16,24 @@ textarea {
     max-width: 280px;
 }
 
+/*<style type="text/css" >
+.@Html.ActionLink {
+    font-size: 10px;
+    font-family: Verdana,Helvetica;
+    font-weight: bold;
+    color: white;
+    background: #638cb5;
+    border: 0px;
+    width: 80px;
+    height: 19px;
+}*/
+
+.txtbox {
+    width: 100px;
+    height: 75px;
+    background-color: #F0F0F0;
+    border: 1px solid black;
+}
+
+@Html.TextBox(“txtName”,””, new{@class = “txtbox”})
+

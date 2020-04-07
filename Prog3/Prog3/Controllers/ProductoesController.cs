@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Prog3;
+using Rotativa;
 
 namespace Prog3.Controllers
 {
@@ -22,15 +23,18 @@ namespace Prog3.Controllers
         [HttpPost]
         public ActionResult Index(FormCollection formCollection)
         {
-            string name = formCollection["Nombre"];
-            
+            string name = formCollection["Nombre"];    
             if(name != "")
             {
                var producto = (from p in db.Producto where p.Nombre == name select p);
             }
-
-
             return View(db.Producto.ToList());
+        }
+
+        public ActionResult Imprimir()
+        {
+            var print = new ActionAsPdf("Index");
+            return print;
         }
 
 
